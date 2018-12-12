@@ -33,7 +33,7 @@ public class EmployeeInfo {
         yearBorn = yB;
         monthBorn = mB;
         dayBorn = dB;
-        // employeeNumber = eN;
+        // employeeNumber = eN;S
     }
 
     public String getFirstName() {
@@ -51,14 +51,4 @@ public class EmployeeInfo {
     public String getDayBorn() {
         return dayBorn;
     }
-
-/*
-    public void setEmployeeNumber(int eN) {
-        if (eN < 0) {
-            employeeNumber = -1;
-        } else {
-            employeeNumber = eN;
-        }
-    }
-*/
 }

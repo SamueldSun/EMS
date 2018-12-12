@@ -15,7 +15,6 @@ import java.util.Arrays;
 public class AddEmployee extends javax.swing.JFrame {
     
     HashTable theHashTable = new HashTable();
-    EmployeeInfo someEmployee;
     
     /**
      * Creates new form AddEmployee
@@ -242,10 +241,10 @@ public class AddEmployee extends javax.swing.JFrame {
         System.out.println("Last  Name: " + lastName);
         System.out.println("Year  Born: " + yearBorn);
         System.out.println("Month Born: " + monthBorn);
-        System.out.println("Day Born: " + dayBorn);
+        System.out.println("Day   Born: " + dayBorn);
         
         // Sending data to HashTable via EmployeeInfo
-        someEmployee = new EmployeeInfo(firstName, lastName, yearBorn, monthBorn, dayBorn);
+        EmployeeInfo someEmployee = new EmployeeInfo(firstName, lastName, yearBorn, monthBorn, dayBorn);
         theHashTable.addToHashTable(someEmployee);
         theHashTable.printHashTable();
         

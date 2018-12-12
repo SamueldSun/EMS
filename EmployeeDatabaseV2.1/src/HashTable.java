@@ -23,12 +23,25 @@ public class HashTable {
         }
     }
     */
-    ArrayList<String[]> employeeList = new ArrayList<String[]>();  
+    ArrayList<String[]> employeeList = new ArrayList<String[]>();
     
+    
+    /*
     public String[] newEntry;
     
     public void addToHashTable(EmployeeInfo itemToAdd) {
-        String[] myNewEntry = new String[5];
+        newEntry = new String[5];
+        newEntry[0] = itemToAdd.getFirstName();
+        newEntry[1] = itemToAdd.getLastName();
+        newEntry[2] = itemToAdd.getYearBorn();
+        newEntry[3] = itemToAdd.getMonthBorn();
+        newEntry[4] = itemToAdd.getDayBorn();
+        System.out.println(Arrays.toString(newEntry));
+        employeeList.add(newEntry);
+    }*/
+   
+    public void addToHashTable(EmployeeInfo itemToAdd) {
+        String[] newEntry = new String[5];
         newEntry[0] = itemToAdd.getFirstName();
         newEntry[1] = itemToAdd.getLastName();
         newEntry[2] = itemToAdd.getYearBorn();

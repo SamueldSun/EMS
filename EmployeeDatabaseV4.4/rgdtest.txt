@@ -1,0 +1,4 @@
+a,aaa,1990,11,1990,111111,Toronto,Finance,Full-Time,0.0,0,0,20.0,70000.0,
+W,Q,2001,01,2001,135792,Mississauga,Programming,Part-time,20.0,30,40,25.0,0.0,
+Matthew,Collins,2001,09,2001,159487,Hamilton,Upstairs,Part-Time,91.0,92,93,94.0,0.0,
+John,Zhou,2001,09,2001,192837,Ottawa,Admin,Part-time,28.0,24,18,27.0,0.0,

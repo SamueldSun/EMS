@@ -1,0 +1,4 @@
+William,Qin,2001,01,2001,135792,Mississauga,Programming,Full-time,0.0,0,0,62.0,120000.0,
+Samuel,Sun,2001,08,2001,123456,Toronto,Electrical,Part-time,12.0,13,14,15.0,0.0,
+John,Zhou,2001,09,2001,192837,Ottawa,Admin,Part-time,28.0,24,18,27.0,0.0,
+Matt,Collins,2001,09,2001,135247,Hamilton,Upstairs,Full-Time,0.0,0,0,23.0,75000.0,
